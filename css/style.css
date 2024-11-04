@@ -1,0 +1,51 @@
+/* Estilo para el título */
+h1 {
+  color: #dbbd13;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  text-align: center;
+}
+
+/* Estilo para la lista principal */
+ul {
+  list-style-type: square; /* Cambia el tipo de viñeta */
+  list-style-position: inside; /* Mueve las viñetas al interior del recuadro */
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  width: 300px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para los elementos de lista */
+li {
+  margin: 5px 0;
+}
+
+/* Estilo para las sublistas ordenadas */
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside; /* Mueve las viñetas al interior del recuadro */
+  padding-left: 20px;
+  color: #333;
+}
+
+/* Estilo para los enlaces */
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Estilo para el párrafo final */
+p {
+  text-align: center;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  color: #555;
+}
